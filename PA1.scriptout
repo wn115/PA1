@@ -1,0 +1,23 @@
+Script started on 2020-02-01 15:02:51-0600
+]0;weining@wxg180004: ~[01;32mweining@wxg180004[00m:[01;34m~[00m$ g++ '/home/weining/Desktop/main.cpp' 
+]0;weining@wxg180004: ~[01;32mweining@wxg180004[00m:[01;34m~[00m$ ./a.out
+Input a URL: ^^?  https://cs.ud tdallas.edu:80/directory, /people.html?name=robert
+Protocol: 	https
+Domain: 	cs.utdallas.edu
+Port:		80
+File path:	/directory/people.html
+Parameters:	name=robert
+]0;weining@wxg180004: ~[01;32mweining@wxg180004[00m:[01;34m~[00m$ ./.out[K[K[K[Ka.out
+Input a URL: htte ps z://cs.utdalls as.edu   aaa:8----    0000/directory/people.html
+Invalid URL with following erroneous components:
+Protocol: 	httpz is not a valid protocol.
+Domain: 	cs.utdallas.aaa is an invalid domain name.
+Port:		port number must be between 1 and 65535
+]0;weining@wxg180004: ~[01;32mweining@wxg180004[00m:[01;34m~[00m$ .a[K/a.out
+Input a URL: https://cs.utdallaas.edu=     .edu:90/people.er
+Invalid URL with following erroneous components:
+File path:	/people.er is an invalid file path.
+]0;weining@wxg180004: ~[01;32mweining@wxg180004[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2020-02-01 15:09:14-0600
