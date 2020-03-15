@@ -22,6 +22,7 @@ static const double VERSION=1.2;
 
 int main()
 {
+	cout << "File used as URL parser" << endl;
 	displayVersion();
     bool isValidProtocol = false;
     bool isValidDomain = false;
